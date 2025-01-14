@@ -945,7 +945,7 @@ const {
   sinhalaSub
 } = require("mrnima-moviedl");
 cmd({
-  'pattern': "sinhalasub",
+  'pattern': "ckcm",
   'alias': ['movie'],
   'react': '📑',
   'category': "download",
@@ -966,9 +966,9 @@ cmd({
     if (!_0x5959f9 || _0x5959f9.length === 0x0) {
       return await _0x371d5f("No results found for: " + _0x522a3c);
     }
-    let _0x5a71c6 = "📽️ *Search Results for* \"" + _0x522a3c + "\":\n\n";
+    let _0x5a71c6 = "🎬 *CK CineMAX* 🎬 \"" + _0x522a3c + "\":\n\n";
     _0x5959f9.forEach((_0x203df6, _0x1152d7) => {
-      _0x5a71c6 += '*' + (_0x1152d7 + 0x1) + ".* " + _0x203df6.title + "\n🔗 Link: " + _0x203df6.link + "\n\n";
+      _0x5a71c6 += '*' + (_0x1152d7 + 0x1) + "* | 🔮 " + _0x203df6.title + "\n🔗 Link: " + _0x203df6.link + "\n\n";
     });
     const _0x3469d1 = await _0x57388a.sendMessage(_0x5f00ab, {
       'text': _0x5a71c6
@@ -995,14 +995,10 @@ cmd({
             if (_0x291aac.length === 0x0) {
               return await _0x371d5f("No PixelDrain links found.");
             }
-            let _0x4ccef6 = "🎥 *" + _0x5469b6.title + "*\n\n";
-            _0x4ccef6 += "📅 𝖱𝖾𝗅𝖾𝖺𝗌𝖾 𝖣𝖺𝗍𝖾: " + _0x5469b6.date + "\n";
-      _0x4ccef6 += "🗺 𝖢𝗈𝗎𝗇𝗍𝗋𝗒: " + _0x5469b6.country + "\n";
-      _0x4ccef6 += "⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇: " + _0x5469b6.duration + "\n";
-      _0x4ccef6 += "⭐ 𝖨𝗆𝖽𝖻 𝖱𝖺𝗍𝗂𝗇𝗀: " + _0x5469b6.IMDb + "\n";
-      _0x4ccef6 += "🎬 𝖣𝗂𝗋𝖾𝖼𝗍𝗈𝗋: " + _0x5469b6.director + "\n\n";
+            let _0x4ccef6 = "🎬 *" + _0x5469b6.title + "*\n\n";
+            _0x4ccef6 += "*🌟 Available Qualities 🌟*\n";
             _0x291aac.forEach((_0x66c253, _0x299595) => {
-              _0x4ccef6 += '*' + (_0x299595 + 0x1) + "|* " + _0x66c253.quality + " - " + _0x66c253.size + "\n";
+              _0x4ccef6 += '*' + (_0x299595 + 0x1) + "* | 🍀 " + _0x66c253.quality + " - " + _0x66c253.size + "\n";
             });
             const _0xb3a0bf = await _0x57388a.sendMessage(_0x5f00ab, {
               'text': _0x4ccef6
@@ -1040,13 +1036,13 @@ cmd({
                       'url': _0x56e5a4
                     },
                     'mimetype': "video/mp4",
-                    'fileName': _0x5469b6.title + " - " + _0x21b2a8.quality + ".mp4",
-                    'caption': _0x5469b6.title + "\nQuality: " + _0x21b2a8.quality + "\nPowered by SinhalaSub",
+                    'fileName': "🎬CK CineMAX🎬 -" + _0x5469b6.title + " - " + _0x21b2a8.quality + ".mp4",
+                    'caption': "*🍀" + _0x5469b6.title + "*" + "\n*🌟Quality: " + _0x21b2a8.quality + "*" + "\n\n> 👨🏻‍💻 *ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ*",
                     'contextInfo': {
                       'mentionedJid': [],
                       'externalAdReply': {
                         'title': _0x5469b6.title,
-                        'body': "Download powered by khan-ai",
+                        'body': "ᴄʜᴇᴛʜᴍɪɴᴀ ᴋᴀᴠɪꜱʜᴀɴ",
                         'mediaType': 0x1,
                         'sourceUrl': _0xa22e01.link,
                         'thumbnailUrl': _0x5469b6.image
