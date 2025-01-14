@@ -996,7 +996,11 @@ cmd({
               return await _0x371d5f("No PixelDrain links found.");
             }
             let _0x4ccef6 = "🎥 *" + _0x5469b6.title + "*\n\n";
-            _0x4ccef6 += "*Available PixelDrain Download Links:*\n\n";
+            _0x4ccef6 += "📅 𝖱𝖾𝗅𝖾𝖺𝗌𝖾 𝖣𝖺𝗍𝖾: " + _0x5469b6.date + "\n";
+      _0x4ccef6 += "🗺 𝖢𝗈𝗎𝗇𝗍𝗋𝗒: " + _0x5469b6.country + "\n";
+      _0x4ccef6 += "⏰ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇: " + _0x5469b6.duration + "\n";
+      _0x4ccef6 += "⭐ 𝖨𝗆𝖽𝖻 𝖱𝖺𝗍𝗂𝗇𝗀: " + _0x5469b6.IMDb + "\n";
+      _0x4ccef6 += "🎬 𝖣𝗂𝗋𝖾𝖼𝗍𝗈𝗋: " + _0x5469b6.director + "\n\n";
             _0x291aac.forEach((_0x66c253, _0x299595) => {
               _0x4ccef6 += '*' + (_0x299595 + 0x1) + "|* " + _0x66c253.quality + " - " + _0x66c253.size + "\n";
             });
